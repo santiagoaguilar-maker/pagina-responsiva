@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#columnaPrincipal {
+    margin: auto;
+    font-size: 12px;
+    overflow: hidden;
+}
+
+
+#columna1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    background-color: rgb(45, 27, 20);
+    color: rgb(233, 185, 122);
+    padding: 15px;
+}
+
+#columna1 h1 {
+    font-size: 25px;
+}
+
+#columna1-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+#columna1-1 h3 {
+    font-size: 10px;
+}
+
+#columna2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: center;
+    background-color: rgb(252, 245, 226);
+    padding: 50px;
+}
+
+#columna21 {
+     display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 15px;
+}
+
+.titulo21 {
+     color: rgb(203, 157, 105);
+    font-size: 16px;
+    margin: 0;
+}
+
+.titulo22,
+.titulo23 {
+    color: rgb(165, 82, 63);
+    font-size: 40px;
+    margin: 0;
+    height: auto;
+    line-height: 0.5;
+    text-align: right;
+}
+
+.parrafo23 {
+ width: 370px;
+    font-size: 14px;
+    line-height: 1;
+    text-align: right;
+    margin: 15px;
+}
+
+#boton {
+    background-color: rgb(199, 86, 64);
+    color: white;
+    padding: 12px 25px;
+    font-size: 12px;
+    margin-top: 10px;
+    border: 0px;
+}
+
+#columna22 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+
+.imagen-chef {
+    width: 220px;
+    height: 300px;
+    border: 3px solid rgb(45, 27, 20);
+    object-fit: cover;
+}
+
+
+#columna3 {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    background-color: rgb(199, 86, 64);
+    color: rgb(242, 229, 187);
+    padding: 35px;
+}
+
+#columna3 > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    text-align: center;
+}
+
+#columna3 h3 {
+    font-size: 35px;
+}
+
+#columna3 p {
+    font-size: 12px;
+}
+
+
+#columna4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background-color: rgb(45, 27, 20);
+    padding: 60px;
+}
+
+#columna42 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-plato {
+    width: 150px;
+    height: 112px;
+    object-fit: cover;
+    
+}
+
+#columna44 {
+    width: 370px;
+    border-left: 2px solid rgb(242, 229, 187);
+    padding-left: 20px;
+}
+
+.parrafo4 {
+    width: 100%;
+    color: rgb(242, 229, 187);
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.titulo45 {
+    color: rgb(166, 134, 30);
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+
+#columna5 {
+    background-color: rgb(252, 245, 226);
+    padding: 50px 30px;
+    text-align: center;
+}
+
+#columna5 h1 {
+    color: rgb(35, 25, 20);
+    font-size: 25px;
+}
+
+.subtitulo {
+    color: rgb(182, 160, 88);
+    margin-top: 15px;
+}
+
+.platos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    width: 100%;
+    max-width: 750px;
+    margin: 25px auto 0;
+}
+
+.tarjeta {
+    display: flex;
+    gap: 10px;
+    background-color: white;
+}
+
+.foto-plato {
+    width: 35%;
+    min-height: 120px;
+    background-color: rgb(212, 169, 123);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.foto-plato img {
+    width: 100%;
+    height: 155px;
+    object-fit: cover;
+}
+
+.informacion {
+    width: 55%;
+    text-align: left;
+    padding: 10px 5px;
+}
+
+.informacion h2 {
+    color: rgb(155, 86, 67);
+    font-size: 15px;
+}
+
+.informacion h3 {
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.informacion p {
+    font-size: 11px;
+    line-height: 1.5;
+    margin-top: 8px;
+}
+
+.informacion button {
+    background-color: rgb(199, 86, 64);
+    color: white;
+    padding: 12px 25px;
+    font-size: 12px;
+    margin-top: 10px;
+    border: 0px;
+}
+
+
+#columna6 {
+    background-color: rgb(45, 27, 20);
+    color: rgb(233, 185, 122);
+    padding: 30px;
+    text-align: center;
+}
+#columna6 span{
+    font-size: 30px;
+    padding: 0px 15px 0px 15px;
+}
+
+#redes {
+    margin-top: 10px;
+    font-size: 15px;
+}
